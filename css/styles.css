@@ -112,7 +112,13 @@ nav a {
     font-weight: bold;
 
     color: white;
-    background: #999999;
+    background: -moz-linear-gradient(45deg, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: linear-gradient(45deg, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 nav a:hover,
@@ -175,8 +181,31 @@ h1 {
 }
 
 .search_courses {
-    margin: 1%;
+    margin: 2.5%;
     float: right;
+    padding-left: 10px;
+}
+
+input.search_courses:hover {
+    opacity: .5;
+}
+
+.sign_up {
+    margin: 2.5%;
+    width: 100%;
+    line-height: 44px;
+    border-radius: 10px;
+    background: #87e0fd; /* Old browsers */
+    background: -moz-linear-gradient(45deg, #87e0fd 0%, #53cbf1 50%, #05abe0 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#87e0fd), color-stop(50%,#53cbf1), color-stop(100%,#05abe0)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(45deg, #87e0fd 0%,#53cbf1 50%,#05abe0 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(45deg, #87e0fd 0%,#53cbf1 50%,#05abe0 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(45deg, #87e0fd 0%,#53cbf1 50%,#05abe0 100%); /* IE10+ */
+    background: linear-gradient(45deg, #87e0fd 0%,#53cbf1 50%,#05abe0 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    -webkit-box-shadow: 6px 6px 10px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:    6px 6px 10px 0 rgba(0, 0, 0, 0.75);
+    box-shadow:         6px 6px 10px 0 rgba(0, 0, 0, 0.75);
 }
 
 footer ul {
