@@ -10,6 +10,16 @@
         window.location.assign('home.html');
     });
 
+    /* ======================== Score Card ===================== */
+    $('.scorecardbtn').click(function(){
+        window.location.assign('scorecard.html');
+    });
+
+    /* ======================== Favorite Courses ===================== */
+    $('.favoritesbtn').click(function(){
+        window.location.assign('favorite.html');
+    });
+
     /* =========================== Accordion For Projects Page ============== */
 
     $('ul.tabs').each(function(){
