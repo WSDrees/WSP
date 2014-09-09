@@ -210,7 +210,6 @@ input.search_courses:active {
 }
 
 footer ul {
-    clear: both;
     list-style-type: none;
     position: fixed;
     width: 50px;
@@ -286,13 +285,13 @@ li {
 
     nav a {
         float: left;
-        width: 95%;
+        width: 100%;
         margin: 0 1.7%;
         padding: 25px 2%;
     }
 
     nav li:first-child a {
-        margin-left: 0;
+        margin-left: 1.7%;
     }
 
     nav li:last-child a {
@@ -309,11 +308,17 @@ li {
         width: 23.3%;
         margin-right: 1.7%;
         overflow: hidden;
-
     }
 
     .oldie nav a {
         margin: 0 0.7%;
+    }
+
+    /*=========== Footer ========== */
+    footer ul li{
+        display: inline;
+        float: left
+    opacity: 1;
     }
 }
 
@@ -354,6 +359,12 @@ li {
     .main aside {
         float: right;
         width: 28%;
+    }
+    /*=========== Footer ========== */
+    ul.icons{
+        display: inline;
+        float: left
+        opacity: 1;
     }
 }
 
