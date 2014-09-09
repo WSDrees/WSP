@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b798d41-d919-4772-8ee2-f84f8641895e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,8 +69,8 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7049689" vertical-offset="5066" max-vertical-offset="7755">
-              <caret line="366" column="8" selection-start-line="366" selection-start-column="8" selection-end-line="366" selection-end-column="8" />
+            <state vertical-scroll-proportion="7.9850745" vertical-offset="1925" max-vertical-offset="7830">
+              <caret line="483" column="33" selection-start-line="483" selection-start-column="33" selection-end-line="483" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -80,8 +79,8 @@
       <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.0" vertical-offset="1813" max-vertical-offset="2460">
-              <caret line="150" column="51" selection-start-line="150" selection-start-column="51" selection-end-line="150" selection-end-column="51" />
+            <state vertical-scroll-proportion="-13.130435" vertical-offset="1483" max-vertical-offset="2445">
+              <caret line="119" column="53" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -110,8 +109,8 @@
       <file leaf-file-name="featured_course.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/featured_course.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9130435" vertical-offset="1018" max-vertical-offset="1740">
-              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+            <state vertical-scroll-proportion="-3.9183674" vertical-offset="438" max-vertical-offset="1740">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -137,13 +136,13 @@
         <option value="$PROJECT_DIR$/find.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/admin.html" />
-        <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/best_value.html" />
         <option value="$PROJECT_DIR$/featured_course.html" />
         <option value="$PROJECT_DIR$/top_rated.html" />
         <option value="$PROJECT_DIR$/home.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/register.html" />
       </list>
     </option>
   </component>
@@ -699,30 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/top_rated.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.565217" vertical-offset="1003" max-vertical-offset="1725">
-          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/featured_course.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9130435" vertical-offset="1018" max-vertical-offset="1740">
-          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.0" vertical-offset="1813" max-vertical-offset="2460">
-          <caret line="150" column="51" selection-start-line="150" selection-start-column="51" selection-end-line="150" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="19.47826" vertical-offset="1048" max-vertical-offset="1695">
@@ -731,10 +706,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/top_rated.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.565217" vertical-offset="1003" max-vertical-offset="1725">
+          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.130435" vertical-offset="1483" max-vertical-offset="2445">
+          <caret line="119" column="53" selection-start-line="119" selection-start-column="53" selection-end-line="119" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featured_course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9183674" vertical-offset="438" max-vertical-offset="1740">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="17" selection-end-line="42" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7049689" vertical-offset="5066" max-vertical-offset="7755">
-          <caret line="366" column="8" selection-start-line="366" selection-start-column="8" selection-end-line="366" selection-end-column="8" />
+        <state vertical-scroll-proportion="7.9850745" vertical-offset="1925" max-vertical-offset="7830">
+          <caret line="483" column="33" selection-start-line="483" selection-start-column="33" selection-end-line="483" selection-end-column="33" />
           <folding />
         </state>
       </provider>
