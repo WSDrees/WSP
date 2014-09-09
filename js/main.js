@@ -1,6 +1,6 @@
 (function($){
 
-    /* ======================== Registration ===================== */
+    /* ======================== Sign Up ===================== */
     $('.sign_up').click(function(){
         window.location.assign('register.html');
     });
@@ -18,6 +18,11 @@
     /* ======================== Favorite Courses ===================== */
     $('.favoritesbtn').click(function(){
         window.location.assign('favorite.html');
+    });
+
+    /* ======================== Registration ===================== */
+    $('.register').click(function(){
+        window.location.assign('admin.html');
     });
 
     /* =========================== Accordion For Projects Page ============== */

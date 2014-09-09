@@ -184,7 +184,11 @@ h1 {
     float: right;
 }
 
-input.search_courses:hover {
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+
+input.search_courses:active {
     opacity: .5;
 }
 
@@ -253,8 +257,18 @@ footer ul:hover {
     padding: .015% 2.5%;
 }
 
+/*=========== Registration ==========*/
+li {
+    list-style-type: none;
+}
 
-
+.register {
+    line-height: 44px;
+    border-radius: 20px;
+    margin: 10px auto;
+    display: block;
+    width: 50%;
+}
 
 
 
