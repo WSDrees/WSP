@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b798d41-d919-4772-8ee2-f84f8641895e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/best_value.html" afterPath="$PROJECT_DIR$/best_value.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/featured_course.html" afterPath="$PROJECT_DIR$/featured_course.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/register.html" afterPath="$PROJECT_DIR$/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/top_rated.html" afterPath="$PROJECT_DIR$/top_rated.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WSP.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="best_value.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="best_value.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/best_value.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5332303" vertical-offset="300" max-vertical-offset="1635">
-              <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+            <state vertical-scroll-proportion="-2.6956522" vertical-offset="988" max-vertical-offset="1635">
+              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -56,16 +52,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-29.347826" vertical-offset="0" max-vertical-offset="1080">
               <caret line="45" column="70" selection-start-line="45" selection-start-column="70" selection-end-line="45" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Full Sail/DWS2-2/wk3_Drees_Steve/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.521739" vertical-offset="2053" max-vertical-offset="2760">
-              <caret line="153" column="0" selection-start-line="153" selection-start-column="0" selection-end-line="157" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -84,8 +70,8 @@
       <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2495" max-vertical-offset="7560">
-              <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="4220" max-vertical-offset="7590">
+              <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -121,11 +107,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="featured_course.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="featured_course.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/featured_course.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.608696" vertical-offset="225" max-vertical-offset="1635">
-              <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+            <state vertical-scroll-proportion="0.55641425" vertical-offset="720" max-vertical-offset="1665">
+              <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -154,10 +140,10 @@
         <option value="$PROJECT_DIR$/register.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/home.html" />
-        <option value="$PROJECT_DIR$/css/styles.css" />
         <option value="$PROJECT_DIR$/top_rated.html" />
-        <option value="$PROJECT_DIR$/featured_course.html" />
         <option value="$PROJECT_DIR$/best_value.html" />
+        <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/featured_course.html" />
       </list>
     </option>
   </component>
@@ -208,48 +194,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WSP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -717,14 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2495" max-vertical-offset="7560">
-          <caret line="193" column="0" selection-start-line="193" selection-start-column="0" selection-end-line="193" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.347826" vertical-offset="0" max-vertical-offset="1080">
@@ -765,18 +701,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/featured_course.html">
+    <entry file="file://$PROJECT_DIR$/best_value.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.608696" vertical-offset="225" max-vertical-offset="1635">
-          <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+        <state vertical-scroll-proportion="-2.6956522" vertical-offset="988" max-vertical-offset="1635">
+          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/best_value.html">
+    <entry file="file://$PROJECT_DIR$/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5332303" vertical-offset="300" max-vertical-offset="1635">
-          <caret line="42" column="86" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="4220" max-vertical-offset="7590">
+          <caret line="311" column="0" selection-start-line="311" selection-start-column="0" selection-end-line="311" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/featured_course.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55641425" vertical-offset="720" max-vertical-offset="1665">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="19" />
           <folding />
         </state>
       </provider>
