@@ -240,12 +240,13 @@ footer ul:hover {
 /*=========== Admin Page ==========*/
 .mytabs {
     float: left;
-    width: 75%;
+    width: 60%;
     background-color: #6699FF;
 }
 
 #profilePic {
     float: left;
+    max-width: 100%;
     margin: 0.6666667% 1.666666666%;
 }
 
