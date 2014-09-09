@@ -232,6 +232,16 @@ footer ul:hover {
 }
 
 
+/*=========== Admin Page ==========*/
+
+.userid {
+    float: left;
+
+}
+#logOut {
+    float: right;
+}
+
 
 
 

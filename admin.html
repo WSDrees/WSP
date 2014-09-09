@@ -17,18 +17,42 @@
 </head>
 <body>
 <div class="container">
-    <header role="banner">
+    <header role="banner" class="header-container">
+        <div class="userid">Welcome User:</div>
+        <input name="logOut" type="button" id="logOut" value="Log Out" />
 
     </header>
 
-    <nav role="navigation">
-        <ul role="menu">
-            <li role="menuitem"><a href="home.html" class="current">Home</a></li>
-            <li role="menuitem"><a href="featured_course.html">Featured Course</a></li>
-            <li role="menuitem"><a href="top_rated.html">Top Rated</a></li>
-            <li role="menuitem"><a href="best_value.html">Best value</a></li>
-        </ul>
-    </nav>
+    <div>
+        <h1>Welcome</h1>
+
+        <div id="profilePic">
+            <img src="images/golfer2.jpg" alt="profile_picture">
+        </div>
+
+        <div class="mytabs">
+            <ul class="tabs">
+                <li><a href="#tab1">Score Card</a></li>
+                <li><a href="#tab2">Favorite Courses</a></li>
+                <li><a href="#tab3">User Info</a></li>
+            </ul>
+            <div id="tab1">
+                <p>Hi, this is the first tab. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p> Go to the projects... <button class="projectsbtn">Projects</button></p>
+            </div>
+
+            <div id="tab2">
+                <p>Hi, this is the second tab. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p> Go to the tasks... <button class="taskbtn">Tasks</button></p>
+            </div>
+
+            <div id="tab3">
+                <p>Hi, this is the third tab. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p> Go to the users... <button class="usersbtn">Users</button></p>
+            </div>
+        </div>
+
+    </div>
 
 </div>
 <!-- main -->
