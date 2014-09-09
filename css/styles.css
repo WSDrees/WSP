@@ -233,6 +233,15 @@ footer ul:hover {
 
 
 /*=========== Admin Page ==========*/
+.mytabs {
+    float: left;
+    width: 75%;
+}
+
+#profilePic {
+    float: left;
+    margin: 0.6666667% 1.666666666%;
+}
 
 .userid {
     float: left;
