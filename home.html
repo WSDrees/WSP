@@ -30,12 +30,19 @@
 
         <nav role="navigation">
             <ul role="menu">
-                <li role="menuitem"><a href="home.html">Home</a></li>
+                <li role="menuitem"><a href="home.html" class="current">Home</a></li>
                 <li role="menuitem"><a href="featured_course.html">Featured Courses</a></li>
                 <li role="menuitem"><a href="top_rated.html">Top Rated</a></li>
                 <li role="menuitem"><a href="best_value.html">Best Value</a></li>
             </ul>
         </nav>
+
+        <section>
+            <form method="get" action="http://www.google.com">
+                <input type="text" class="search_courses" name=""  maxlength="120">
+                <input type="submit" value="Search" class="search_courses">
+            </form>
+        </section>
 
         <article>
             <header class="clearfix">
@@ -58,8 +65,13 @@
 </div> <!-- #main-container -->
 
 <div class="footer-container">
-    <footer class="wrapper">
-        <h3>footer</h3>
+    <footer class="container">
+        <ul>
+            <li><img src="images/icon_facebook.png" alt="facebook"></li>
+            <li><img src="images/icon_google.png" alt="google"></li>
+            <li><img src="images/icon_linked.png" alt="linked"></li>
+            <li><img src="images/icon_twitter.png" alt="twitter"></li>
+        </ul>
     </footer>
 </div>
 

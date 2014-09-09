@@ -62,7 +62,7 @@ textarea {
    ========================================================================== */
 
 body {
-    font: 16px/26px “Courier New”, Courier, “Lucida Sans Typewriter”, “Lucida Typewriter”, monospace;
+    font-family:Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter, monospace;
 }
 
 .wrapper {
@@ -71,7 +71,7 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Themes
    =================== */
 
 .header-container {
@@ -174,6 +174,34 @@ h1 {
     text-align: center;
 }
 
+.search_courses {
+    margin: 1%;
+    float: right;
+}
+
+footer ul {
+    clear: both;
+    list-style-type: none;
+    position: fixed;
+    width: 50px;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    opacity: 0.2;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+    transition: All 1s ease;
+}
+
+footer ul:hover {
+    opacity: 1;
+    -webkit-transition: All 1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+    transition: All 1s ease;
+}
+
 
 
 
@@ -199,7 +227,6 @@ h1 {
         width: 95%;
         margin: 0 1.7%;
         padding: 25px 2%;
-        margin-bottom: 0;
     }
 
     nav li:first-child a {

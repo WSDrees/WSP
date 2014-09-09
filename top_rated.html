@@ -1,49 +1,89 @@
 <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <!--  Mobile viewport optimized: j.mp/bplateviewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Top Rated</title>
-    <link rel="stylesheet" href="css/foundation.css"/>
-    <link rel="stylesheet" href="css/styles.css"/>
-    <link rel="stylesheet" href="css/normalize.css"/>
-    <script type="text/javascript" src="js/vendor/modernizr.js"></script>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tee Time</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--[if IE]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-
 </head>
 <body>
-<div class="container">
-    <header role="banner">
-        <h1>About us</h1>
-        <form action="" method="get">
-            <input type="text" name="search_text" class="search_text" placeholder="Search"/>
-        </form>
+<div class="header-container">
+    <header class="wrapper clearfix" role="banner">
+        <img src="images/acmeLogo.png" alt="logo">
     </header>
-
-    <nav role="navigation">
-        <ul role="menu">
-            <li role="menuitem"><a href="home.html" class="current">Home</a></li>
-            <li role="menuitem"><a href="featured_course.html">Featured Course</a></li>
-            <li role="menuitem"><a href="top_rated.html">Top Rated</a></li>
-            <li role="menuitem"><a href="best_value.html">Best value</a></li>
-        </ul>
-    </nav>
-
-    <section role="main">
-        <h2>Acme interactive is helping you to find your next great golf destination</h2>
-        <img src="images/putting.jpg" alt="putting">
-        <p>Here at Acme interactive...</p>
-    </section>
-
 </div>
-<!-- main -->
-<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
-<script type="text/javascript" src="js/vendor/jquery.js"></script>
-<script type="text/javascript" src="js/foundation.min.js"></script>
-<script src="js/main.js" type="text/javascript" ></script>
+
+<div class="main-container">
+    <div class="main wrapper clearfix">
+
+        <nav role="navigation">
+            <ul role="menu">
+                <li role="menuitem"><a href="home.html">Home</a></li>
+                <li role="menuitem"><a href="featured_course.html">Featured Courses</a></li>
+                <li role="menuitem"><a href="top_rated.html" class="current">Top Rated</a></li>
+                <li role="menuitem"><a href="best_value.html">Best Value</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <form method="get" action="http://www.google.com">
+                <input type="text" class="search_courses" name=""  maxlength="120">
+                <input type="submit" value="Search" class="search_courses">
+            </form>
+        </section>
+
+        <article>
+            <header class="clearfix">
+                <h1>Top Rated</h1>
+                <p>We’re more than just an incredibly advanced, comprehensive, and powerful golf course search engin. We’re here to raise the bar - to breate the most enjoyable golfing experience possible and make playing the most sophisticated sport simple. Just signup and ping! </p>
+
+                <p>We provide golfers with the most comprehensive database of public golf courses available, complete with robust search capabilities. We make it easy for you to find just the right golf courses for your golfing style anywhere in the United States. You can search golf courses by name, location, proximity, course type, amenities, number of holes, or even greens fees. We also offer you in-depth golfing and course information, tip you off on upcoming golfing events, and give you free discount coupons for your favorite golf courses. With us, reserving your tee time at the golf course of your choice has never been easier - you can even email your tee time to your golf buddies too.</p>
+
+                <p>So get the golf information you need and none of the stuff you don't. Get started improving the way you play golf. Get smart and check out our golf course layouts, scorecards, and in-depth course facility information so you can plan your golf game ahead of time.  Get going to the golf course that fits you. And get out there and play!</p>
+            </header>
+
+        </article>
+
+        <aside>
+            <h3><img src="images/golfball3.jpg" alt="golfball"></h3>
+            <p></p>
+        </aside>
+
+    </div> <!-- #main -->
+</div> <!-- #main-container -->
+
+<div class="footer-container">
+    <footer class="wrapper">
+        <h3>footer</h3>
+    </footer>
+</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+    (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+    ga('create','UA-XXXXX-X');ga('send','pageview');
+</script>
 </body>
 </html>
