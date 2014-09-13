@@ -1,0 +1,143 @@
+/* css reset */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,dialog,figure,footer,header,menu,nav,section,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,dialog,figure,footer,header,nav,section{display:block}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}a{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted#000;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid#cccccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+/* ========= */
+html{
+    height:100%;
+}
+body{
+    background:#bbb;
+    color:#222;
+    width: 100%;
+    height:100%;
+    font-family:Tahoma, Helvetica;
+}
+#sitewrap{
+    width:60%;
+    height:100%;
+    overflow:auto;
+    margin:0 auto;
+    border-left:10px solid #444;
+    border-right:10px solid #444;
+    background:#eee;
+}
+
+#wrap{
+    padding:3.33333333333%; /* 20px/600px */
+}
+
+#logowrap{
+    float:left;
+    width:340px;
+    padding-bottom:20px;
+}
+
+h1{
+    font-size:22px;
+}
+.headsub{
+    font-size:12px;
+    color:#f70;
+    font-style:italic;
+    padding:3px 0 0;
+}
+
+#searchwrap{
+    float:right;
+    padding-top:1px;
+}
+
+#search{
+    border:1px solid #666;
+    background:#fff;
+    color:#333;
+    width: 75%;
+    padding:3px;
+    line-height:20px;
+}
+
+#submit{
+    border:1px solid #666;
+    background:#bbb;
+    color:#111;
+    line-height:26px;
+    text-align: center;
+    float: right;
+}
+
+#results{
+    clear:both;
+    padding-top:20px;
+    border-top:1px solid #777;
+}
+
+#results p{
+    padding:0 0 10px;
+    word-wrap: break-word;
+}
+
+#results a{
+    color:#c40;
+    font-size:14px;
+}
+
+img[alt="golfGif"]{
+    margin: 1% auto;
+    float: left;
+}
+
+/*========== Auto Hide Placeholder ================*/
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+
+
+/*=============== Score Card ================*/
+
+
+
+/*=============== Register ================*/
+.radio{
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.radio .row {
+    margin: 0 0 0 150px;
+}
+
+.radio legend {
+    left: 0;
+    padding: 0 6px;
+    position: absolute;
+    text-align: right;
+    top: 2px;
+}
+
+.radio label {
+    padding-left: 2px;
+    margin-right: 5px;
+    vertical-align: middle;
+    width: auto;
+}
+
+/*========== MEDIA QUERIES ==========*/
+/*20 em (320px and up)*/
+@media only screen and (min-width: 20em){
+
+}
+
+/* 30em (480px and up) */
+@media only screen and (min-width: 30em){
+
+}
+
+/* 30em - 47.9375em (From 480px - 767px, NOT beyond) */
+@media only screen and (min-width: 30em) and (max-width: 47.9375em){
+
+}
+
+/* 48em (768 and up) */
+@media only screen and (min-width: 48em){
+
+}
